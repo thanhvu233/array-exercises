@@ -17,3 +17,5 @@ function findDuplicateElements(arr1, arr2) {
 
     return result;
 }
+
+console.log(findDuplicateElements([1, 2, 3, 4, 5, 6, 7, 9, 9, 8, 7, 7], [3, 5, 9, 10, 88]))

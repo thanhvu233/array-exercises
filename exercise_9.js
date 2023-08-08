@@ -33,3 +33,5 @@ const order = {
     'customer': 'Name',
     'address': '12 Giai Phong Street'
 };
+
+console.log(myFunc(order.cart))

@@ -8,3 +8,5 @@ function findElementsWithGreatestSum(arr) {
 
     return [arr[0], arr[1]];
 }
+
+console.log(findElementsWithGreatestSum([1,7,9,2,5,3,8]));

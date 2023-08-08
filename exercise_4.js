@@ -19,3 +19,6 @@ function findUniqueElementsUsingSet(arr) {
     const uniqueElementSet = new Set(arr);
     return Array.from(uniqueElementSet);
 }
+
+console.log(findUniqueElements([1,2,3,1,2,3,4,5,6,4]));
+console.log(findUniqueElementsUsingSet([1,2,3,1,2,3,4,5,6,4]));

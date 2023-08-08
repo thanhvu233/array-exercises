@@ -23,3 +23,5 @@ const myFunc = (inputArr) => {
 
     return result;
 }
+
+console.log(myFunc([1,2,3,4,2,3,5,3,1,1,5,2,3]))

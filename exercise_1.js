@@ -13,3 +13,5 @@ function getCommonElements(arr1, arr2) {
         if (commonElements.has(value)) return value;
     });
 }
+
+console.log(getCommonElements([1,2,3,4,5,6], [3,4,8,9,12]));

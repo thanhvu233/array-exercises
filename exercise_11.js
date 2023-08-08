@@ -29,3 +29,12 @@ function getUniqueElements(input) {
     const uniqueElementSet = new Set(flattenArr);
     return Array.from(uniqueElementSet);
 }
+
+const deps = {
+    'data01':[1,2,3,[12,323]],
+    'data02':[5,8,12],
+    'data03':[5,14,79],
+    'data04':[3,64,105],
+}
+
+console.log(getUniqueElements(deps));

@@ -25,3 +25,5 @@ function findPairs(arr, sum) {
         console.log('Pair not found');
     }
 }
+
+findPairs([1,7,9,2,5,3,8], 10);

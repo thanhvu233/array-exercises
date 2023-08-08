@@ -25,3 +25,5 @@ const myFunc = (inputArr) => {
 
     return Object.fromEntries(elementOccurenceMap);
 }
+
+console.log(myFunc(['face', 'zalo', 'face', 'gmail', 'zalo', 'zalo']))
